@@ -1,0 +1,121 @@
+.page-back{
+    background-image: url("../../img/loginback.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    width: 100%;
+    height: 592px;
+    min-width: 666px;
+}
+.border_login{
+    position: absolute;
+    width: 420px;
+    height: 480px;
+    background-color: #ffffff;
+    top:70px;left:1134px;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+.stacic-from{
+    padding: 42px 42px 0px 42px;
+    overflow: hidden;
+
+}
+.stacic-from>ul>li{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 40px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.stacic-from>ul{
+    width: 340px;height: 40px;
+    margin-bottom: 70px;
+}
+.stacic-from>ul>.active{
+    color: #ff7919;
+    border-bottom: 2px solid #ff7919;
+}
+.form_span{
+    font-size: 12px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+.form-group{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    width: 340px;
+    position: relative;
+}
+.form_input{
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    font-size: 14px;
+    color: #232323;
+    outline: none
+}
+.form-group>a{
+    color:orange;
+}
+.form-group>a:hover{
+    text-decoration: none
+}
+.form-button{
+    width: 340px;height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 8px;
+    font-size: 18px;
+    color:#fefefe;
+}
+.login-tree{
+    float: left;
+}
+.login-tree>img{
+    width: 30px;height: 30px;
+}
+.login-zc{
+    float: right;
+}
+.login-zc>a{
+    color: #ff7919;
+}
+.login-zc>a:hover{
+    text-decoration: none;
+}
+.border_1{
+    position: absolute;
+    width: 420px;
+    height: 480px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    top:70px;left:1134px;
+    z-index: 0;
+}
+.passlo>a{
+    color:#666666;
+   
+}
+.passlo>a:hover{
+    text-decoration: none
+}
+.passlo{
+    float: right
+}
+.form-message{
+    color:red;
+    font-size: 12px;
+    display: none;
+}
+#valit{
+    font-size: 12px;
+    color:red;
+}

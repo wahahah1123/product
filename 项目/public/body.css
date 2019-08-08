@@ -1,0 +1,183 @@
+*{margin:0; padding:0;list-style: none; text-decoration: none}
+#main{
+  width:100%;
+  margin:0 auto;
+  box-sizing: border-box;
+}
+#banner{
+  width:100%;
+  overflow:hidden;
+  position:relative;
+}
+#ul-imgs{
+  list-style:none;
+  display: flex;
+}
+#ul-imgs.transition{
+  transition:all .5s linear;
+}
+#ul-imgs>li{
+  width:1920px;
+}
+#ul-imgs img{
+  width:1920px;
+  height:650px;
+}
+#ul-idxs{
+  width:100px;
+  margin:0 auto;
+  list-style:none;
+  position:absolute;
+  bottom:25px;
+  left:50%;
+  margin-left:-50px;
+}
+#ul-idxs>li{
+  float:left;
+  width:10px; height:10px;
+  background-color:#fff;
+  border-radius:5px;
+  margin:0 5px;
+  cursor:pointer;
+}
+#ul-idxs>li.active{
+  background-color:blue;
+}
+#btn-left,#btn-right{
+  width:60px;
+  height:100%;
+  position:absolute;
+  top:0;
+  background-repeat:no-repeat;
+  background-position:center;
+  cursor:pointer;
+}
+#btn-left{
+  left:20px;
+  background-image:url(../../img/toggleleft.png);
+  background-size: 20px 20px;
+  
+}
+#btn-right{
+  right:20px;
+  background-image:url(../../img/toggleright.png);
+  background-size: 20px 20px;
+}
+.font-x{
+  font-size: 26px;
+  color:rgb(39, 24, 0)
+}
+.font-n{
+  font-size: 16px;
+  color:#cecdca;
+}
+.font-m{
+  font-size: 14px;
+  color:#281800;
+}
+.news-p{
+  padding: 70px 0px;
+}
+.bk-flex{
+  width: 100%;
+  display: flex;
+}
+.bk-flex>li>a>img{
+  width:200px;height: 140px;
+  padding: 0px 45px 0px 0px;
+}
+.bk-flex>li{
+  display: flex;
+  width: 600px;height: 140px;
+}
+.bk-flex>li>a:hover{
+  text-decoration: none;
+}
+.bk-style{
+  font-size: 20px;
+  color:#271800;
+  transition: all .4s linear;
+}
+.bk-style:hover{
+  color:orange;
+}
+.bk-style1{
+  font-size: 14px;
+  color:#999999;
+}
+.bk-gang{
+  width: 37px;
+  height: 4px;
+  background: orange;
+}
+.bk-two-p{
+  padding: 70px 0px ;
+}
+.music-b{
+  background-color: #fafafa;
+  overflow: hidden;
+}
+.music-item{
+  width: 400px;height: 310px;
+  padding: 45px 53px;
+  z-index: 999;
+}
+.music-item>div>a{
+  color:black;
+  font-size: 20px;
+  transition: all .3s linear;
+}
+.music-item>div{
+  text-align: center;
+}
+.music-bk-b{
+  background-color: #ffffff;
+}
+.music-item>div>a:hover{
+  text-decoration: none;
+  color:orange;
+}
+.muisc-yellow{
+  width: 35px;height: 4px;
+  background-color: orange;
+  margin: 15px 130px 25px;
+}
+.music-text{
+  font-size: 14px;
+  color:#999999;
+}
+.music-sex{
+  font-size: 20px;
+  padding: 10px 0px;
+}
+.music-span_sex{
+  font-weight: bold;
+  font-size: 28px;
+}
+.music-boxshadow:hover{
+  box-shadow: 100px -5px 15px #999999;
+}
+.tree-boxshaow:hover{
+  box-shadow: -7px 8px 15px #999999;
+}
+.four-boxshaow:hover{
+  box-shadow: 10px 8px 15px #999999;
+}
+.case-left{
+  width: 60px;height: 49px;
+  background-color: rgba(39,24,0,.4);
+  position: relative;
+  top:240px
+}
+.case-p{
+  padding: 25px 10px;
+}
+.case-position{
+  position: relative;
+  left:-52px;
+}
+.case-right{
+  position: relative;
+  left:130px;
+  top:25px;
+}

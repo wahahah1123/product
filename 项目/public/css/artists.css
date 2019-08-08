@@ -1,0 +1,45 @@
+.artists{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1250px;
+}
+.artists-title{
+    width: 100%;
+    height: 120px;
+    line-height: 120px;
+    margin-top: 22px;
+    color: #271800;
+    font-size: 22px;
+}
+.artists-img{
+    display: block;
+    overflow: hidden;
+    width: 285px;
+    height: 360px;
+}
+.border-box{
+    background: #fafafa;
+    font-size: 16px;
+    border-top: 1px solid #e5e5e5;
+    padding-bottom: 180px;
+}
+.box_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.artists_width{
+    width: 285px;
+    height: 285px;
+}
+.lit{
+    font-size: 18px;
+    text-align: center;
+    width: 285px;
+    height: 76px;
+    line-height: 76px;
+    background: #ffffff;
+    transition: all .3s linear
+}
+  .lit:hover{
+    color:orange;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <header id="header"></header>
+<!-- 身体 -->
+    <div class="page-back">
+        <!-- 边框 -->
+        <div class="border_login" id="dx">
+            <!-- 短信登录 -->
+            <div class="stacic-from">
+                <ul>
+                    <li class="active">短信登录</li>
+                    <li  id="pass">密码登录</li>
+                </ul>
+                <div class="form-message">请输入正确的手机号</div>
+                <div class="row form-group">
+                    <span class="col-3 form_span" id="yz">中国 +86 |</span>
+                    <input type="tel" class="col-9 form_input" >
+                </div>
+                <div class="row form-group mt-5">
+                    <input type="tel" class="col-9 form_input" style="outline: none" placeholder="请输入验证码">
+                    <a href="javascript:;">获取验证码</a>
+                </div>
+                <button class="form-button mt-4" >登录</button>
+         
+            <!-- 图标 -->
+            <div class="mt-5">
+                <div class="login-tree">
+                    <img src="../img/qq.png" alt="">
+                    <img src="../img/wxtb.png" alt="">
+                    <img src="../img/xnwb.png" alt="">
+                </div>
+                <div class="login-zc">
+                    <a href="javascript;">立即注册</a>
+                    <img src="../img/orangeright.png" alt="">
+                </div>
+            </div>
+            <div>
+
+            </div>
+            </div>
+            
+        </div>
+        <!-- 边框 -->
+        <div class="border_1" id="zh" >
+             <!-- 登录 -->
+             <div class="stacic-from">
+                <ul>
+                    <li  id="text">短信登录</li>
+                    <li   class="active">密码登录</li>
+                </ul>
+             
+                    <div class="row form-group">
+                        <input id="uname" type="text" onfocus="vali()" class="form_input" placeholder="请输入手机号或邮箱">
+                    </div>
+                    <div id="valit"></div>
+                    <div class="row form-group mt-5">
+                        <input id="upwd" type="password" class="form_input" placeholder="请输入登录密码">
+                    </div>
+                    <div class="passlo "><a href="javascript:;">忘记密码</a></div>
+                   <button  id='btn' class="form-button mt-3">登录</button>
+                
+                 <!-- 图标 -->
+            <div class="mt-4">
+                <div class="login-tree">
+                    <img src="../img/qq.png" alt="">
+                    <img src="../img/wxtb.png" alt="">
+                    <img src="../img/xnwb.png" alt="">
+                </div>
+                <div class="login-zc">
+                    <a href="javascript;">立即注册</a>
+                    <img src="../img/orangeright.png" alt="">
+                </div>
+            </div>
+             </div>
+        </div>
+       
+    </div>
+
+
+    <footer id="footer"></footer>
+</body>
+<!-- <script src="./js/jquery-1.11.3.js"></script> -->
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/head.js"></script>
+<script src="./js/foot.js"></script>
+<script src="./js/login.js"></script>
+</html>

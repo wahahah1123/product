@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.sess{
+    margin: 0px 300px;
+    padding: 70px 0px;
+}
+.pig_width{
+    width:400px;
+    height: 300px;
+}
+.a_title{
+    display:block;
+    padding-top: 20px;
+    font-size: 26px;
+    color: #271800;
+}
+.a_title:hover{
+    color:orange;
+    text-decoration: none
+}
+.time{
+    padding-top: 18px;
+    color: #999;
+}
+.desc{
+    padding-top: 18px;
+    color: #333;
+}
+.dot{
+    display: block;
+    float: left;
+    margin-top: 12px;
+    margin-right: 20px;
+    width: 10px;
+    height: 10px;
+    background: #ff8e00;
+}
+.a-title{
+    display: inline-block;
+    overflow: hidden;
+    width: 570px;
+    font-size: 18px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333;
+}
+.a-title:hover{
+    text-decoration: none;
+    color:orange
+}
+.text-desc{
+    height: 38px;
+    line-height: 38px;
+}
+.span_time{
+    float: right;
+    font-size: 14px;
+    color: #999;
+}
+.secc{
+    margin: 0px 330px;
+    background: #fafafa;
+    border-bottom: 1px dashed #ddd;
+}
+.title{
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #333;
+    width: 915px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.title:hover{
+    text-decoration: none;
+    color: orange;
+}
+.line{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    width: 30px;
+    height: 3px;
+    background: #ff8f00;
+}
+.tail{
+    float: right;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #999;
+}
+.wilie_width{
+    width: 200px;height: 151px;
+}
+.secc:hover{
+    background: #ffffff;
+  
+}
+.act_main_buttom>ul>li+li{
+    width:70px;
+}
+.act_main_buttom>ul>li>a{
+    color:black;
+    font-size: 22px;
+}
+.act_main_buttom>ul>li>a:hover{
+    text-decoration: none;
+}
+.act_main_buttom>ul>li .active{
+    color:orange;
+}
